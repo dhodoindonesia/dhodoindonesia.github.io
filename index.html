@@ -1,57 +1,1576 @@
+
 <!DOCTYPE html>
 <html lang="id">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Dhodo Indonesia</title>
+    <meta name="description"
+        content="Dhodo Indonesia menyediakan jasa pembuatan website profesional, WordPress, jurnal OJS, maintenance, recovery malware, keamanan website, dan pengembangan sistem digital.">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="keywords"
+        content="Dhodo Indonesia, jasa website, jasa WordPress, website perusahaan, website sekolah, website toko online, jurnal OJS, maintenance website, recovery website, web developer Indonesia">
 
+    <meta name="author" content="Dhodo Indonesia">
+    <meta name="theme-color" content="#103b2d">
+
+    <title>DHODO INDONESIA | Jasa Website & Solusi Digital</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="home">
 
-<div class="container">
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
 
-    <img
-    src="https://res.cloudinary.com/hylfkxed/image/upload/v1785366668/PT._Dhodo_Web_Developer_Indonesia_invtzp.jpg"
-    class="cover"
-    alt="DHODO">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top"
+        id="mainNavbar">
 
-    <div class="title">
+        <div class="container">
 
-        <h1>Dhodo Indonesia</h1>
+            <a class="navbar-brand" href="#home">
 
-        <p>
-            Solusi Teknologi Masa Depan
-        </p>
+                <span class="brand-mark">
+                    <i class="bi bi-code-slash"></i>
+                </span>
 
-    </div>
+                <span class="brand-text">
+                    <strong>DHODO INDONESIA</strong>
+                    <small>Website & Digital Solutions</small>
+                </span>
 
-    <div class="menu">
+            </a>
 
-        <a href="https://santriprogrammer.com" class="link">
-            Santri Programmer
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Buka menu navigasi">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Beranda</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#layanan">Layanan</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#keunggulan">Keunggulan</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proses">Proses</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link nav-contact" href="#kontak">
+                            Konsultasi
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <header class="hero-section" id="hero">
+
+        <div class="hero-pattern"></div>
+        <div class="hero-glow"></div>
+
+        <div class="container position-relative">
+
+            <div class="row align-items-center hero-row">
+
+                <div class="col-lg-9 col-xl-8">
+
+                    <div class="hero-badge">
+                        <span></span>
+                        WEBSITE DEVELOPMENT & DIGITAL SOLUTIONS
+                    </div>
+
+                    <h1 class="hero-title">
+                        DHODO
+                        <span>INDONESIA</span>
+                    </h1>
+
+                    <div class="hero-line"></div>
+
+                    <h2 class="hero-subtitle">
+                        Solusi Website untuk Bisnis dan Institusi Anda
+                    </h2>
+
+                    <p class="hero-tagline">
+                        Bangun Digitalnya. Kembangkan Bisnisnya.
+                    </p>
+
+                    <p class="hero-description">
+                        Kami membantu bisnis, lembaga pendidikan,
+                        organisasi, dan institusi membangun kehadiran
+                        digital melalui website profesional, pengembangan
+                        sistem, maintenance, keamanan, serta pemulihan
+                        website bermasalah.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20konsultasi%20jasa%20website."
+                            class="btn btn-gold"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            Konsultasi Gratis
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                        <a href="#layanan" class="btn btn-outline-light">
+                            Lihat Layanan
+                        </a>
+
+                    </div>
+
+                    <div class="hero-values">
+
+                        <div>
+                            <i class="bi bi-window-stack"></i>
+                            <span>Website</span>
+                        </div>
+
+                        <div>
+                            <i class="bi bi-gear"></i>
+                            <span>Maintenance</span>
+                        </div>
+
+                        <div>
+                            <i class="bi bi-shield-check"></i>
+                            <span>Security</span>
+                        </div>
+
+                        <div>
+                            <i class="bi bi-arrow-repeat"></i>
+                            <span>Recovery</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <a href="#tentang" class="scroll-down">
+            <span>Jelajahi layanan kami</span>
+            <i class="bi bi-arrow-down"></i>
         </a>
 
-        <a href="https://santrie.com" class="link">
-            Santri Enterprise
-        </a>
+    </header>
 
-    </div>
 
-    <div class="footer">
+    <!-- =====================================================
+         TENTANG KAMI
+    ====================================================== -->
 
-        Dhodo © 2015 - 2026
+    <section class="section section-light" id="tentang">
 
-    </div>
+        <div class="container">
 
-</div>
+            <div class="section-heading">
+
+                <span class="section-label">TENTANG DHODO INDONESIA</span>
+
+                <h2>
+                    Teknologi yang Tepat,
+                    <span>Solusi yang Berdampak.</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <div class="about-content">
+
+                        <p class="lead-text">
+                            Dhodo Indonesia adalah penyedia layanan
+                            pengembangan website dan solusi digital
+                            yang membantu bisnis serta institusi
+                            membangun, mengelola, dan mengembangkan
+                            aset digital mereka.
+                        </p>
+
+                        <p>
+                            Kami memahami bahwa website bukan sekadar
+                            tampilan di internet. Website dapat menjadi
+                            pusat informasi, media promosi, sarana
+                            pelayanan, platform publikasi ilmiah,
+                            hingga bagian penting dari operasional bisnis.
+                        </p>
+
+                        <p>
+                            Karena itu, kami menyediakan layanan mulai
+                            dari perencanaan dan pembuatan website,
+                            penyesuaian desain, pengembangan fitur,
+                            pemeliharaan rutin, sampai penanganan
+                            website yang mengalami gangguan atau
+                            masalah keamanan.
+                        </p>
+
+                        <div class="quote-box">
+
+                            <i class="bi bi-quote"></i>
+
+                            <p>
+                                Website yang baik bukan hanya terlihat
+                                profesional, tetapi juga mudah digunakan,
+                                terawat, aman, dan mendukung tujuan Anda.
+                            </p>
+
+                        </div>
+
+                        <a href="#kontak" class="text-link">
+                            Ceritakan kebutuhan website Anda
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="about-visual">
+
+                        <div class="visual-arch">
+
+                            <div class="arch-inner">
+
+                                <div class="about-logo">
+                                    <i class="bi bi-code-slash"></i>
+                                </div>
+
+                                <span>DIGITAL DEVELOPMENT</span>
+
+                                <strong>DHODO INDONESIA</strong>
+
+                                <small>
+                                    BUILD • MAINTAIN • SECURE • GROW
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                        <div class="floating-card card-one">
+                            <i class="bi bi-window-stack"></i>
+                            <span>Web Development</span>
+                        </div>
+
+                        <div class="floating-card card-two">
+                            <i class="bi bi-shield-lock"></i>
+                            <span>Website Security</span>
+                        </div>
+
+                        <div class="floating-card card-three">
+                            <i class="bi bi-tools"></i>
+                            <span>Website Care</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         RINGKASAN LAYANAN
+    ====================================================== -->
+
+    <section class="stats-section">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <i class="bi bi-window-stack"></i>
+                        <strong>Development</strong>
+                        <span>Pembuatan Website</span>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <i class="bi bi-arrow-repeat"></i>
+                        <strong>Maintenance</strong>
+                        <span>Perawatan Berkala</span>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <i class="bi bi-shield-check"></i>
+                        <strong>Security</strong>
+                        <span>Keamanan Website</span>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <i class="bi bi-wrench-adjustable-circle"></i>
+                        <strong>Recovery</strong>
+                        <span>Penanganan Gangguan</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         LAYANAN UTAMA
+    ====================================================== -->
+
+    <section class="section section-light" id="layanan">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-label">LAYANAN KAMI</span>
+
+                <h2>
+                    Semua Kebutuhan Website,
+                    <span>Dalam Satu Solusi.</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+                <p>
+                    Dari website pertama hingga pengelolaan website
+                    yang sudah berjalan, kami siap membantu sesuai
+                    kebutuhan dan skala proyek Anda.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <!-- WEBSITE DEVELOPMENT -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="service-card featured">
+
+                        <div class="service-icon">
+                            <i class="bi bi-code-square"></i>
+                        </div>
+
+                        <span class="service-number">01</span>
+
+                        <h3>Jasa Pembuatan Website</h3>
+
+                        <p>
+                            Website profesional dengan tampilan modern,
+                            responsif, dan disesuaikan dengan kebutuhan
+                            bisnis atau institusi.
+                        </p>
+
+                        <ul>
+                            <li>Company profile</li>
+                            <li>Website bisnis dan UMKM</li>
+                            <li>Website personal dan portofolio</li>
+                            <li>Website organisasi dan komunitas</li>
+                            <li>Website lembaga dan institusi</li>
+                            <li>Landing page promosi</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20konsultasi%20pembuatan%20website."
+                            class="service-link"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            Konsultasikan Proyek
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- WORDPRESS -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            <i class="bi bi-wordpress"></i>
+                        </div>
+
+                        <span class="service-number">02</span>
+
+                        <h3>WordPress Development</h3>
+
+                        <p>
+                            Pembuatan dan pengembangan website
+                            menggunakan WordPress, dari instalasi
+                            awal hingga penyesuaian kebutuhan khusus.
+                        </p>
+
+                        <ul>
+                            <li>Instalasi dan konfigurasi WordPress</li>
+                            <li>Desain tema dan layout</li>
+                            <li>Redesign website lama</li>
+                            <li>Pengaturan plugin dan fitur</li>
+                            <li>WordPress multisite</li>
+                            <li>Optimasi tampilan mobile</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20konsultasi%20layanan%20WordPress."
+                            class="service-link"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            Konsultasi WordPress
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- E-COMMERCE -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            <i class="bi bi-cart3"></i>
+                        </div>
+
+                        <span class="service-number">03</span>
+
+                        <h3>Toko Online & E-Commerce</h3>
+
+                        <p>
+                            Bangun toko online untuk menampilkan
+                            produk, menerima pesanan, dan mendukung
+                            aktivitas penjualan digital.
+                        </p>
+
+                        <ul>
+                            <li>Katalog produk</li>
+                            <li>Website toko online</li>
+                            <li>Integrasi WhatsApp</li>
+                            <li>Pengaturan keranjang belanja</li>
+                            <li>Fitur pemesanan</li>
+                            <li>Pengelolaan konten produk</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20membuat%20website%20toko%20online."
+                            class="service-link"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            Buat Toko Online
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- OJS -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            <i class="bi bi-journal-richtext"></i>
+                        </div>
+
+                        <span class="service-number">04</span>
+
+                        <h3>Jurnal Ilmiah & OJS</h3>
+
+                        <p>
+                            Solusi website jurnal ilmiah untuk
+                            perguruan tinggi, pengelola jurnal,
+                            lembaga penelitian, dan penerbit akademik.
+                        </p>
+
+                        <ul>
+                            <li>Instalasi dan setup OJS</li>
+                            <li>Konfigurasi jurnal</li>
+                            <li>Custom dan redesign tampilan</li>
+                            <li>Migrasi website dan database</li>
+                            <li>Perbaikan error OJS</li>
+                            <li>Maintenance jurnal berkala</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20konsultasi%20website%20jurnal%20OJS."
+                            class="service-link"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            Konsultasi Jurnal OJS
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- CUSTOM DEVELOPMENT -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            <i class="bi bi-braces"></i>
+                        </div>
+
+                        <span class="service-number">05</span>
+
+                        <h3>Custom Website & Sistem</h3>
+
+                        <p>
+                            Pengembangan fitur dan sistem berbasis web
+                            yang disesuaikan dengan alur kerja serta
+                            kebutuhan operasional organisasi.
+                        </p>
+
+                        <ul>
+                            <li>Website berbasis HTML dan CSS</li>
+                            <li>Pengembangan PHP</li>
+                            <li>Laravel dan aplikasi web</li>
+                            <li>Formulir dan sistem informasi</li>
+                            <li>Integrasi API sesuai kebutuhan</li>
+                            <li>GitHub Pages dan website statis</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20konsultasi%20pengembangan%20website%20custom."
+                            class="service-link"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            Diskusikan Kebutuhan
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- LANDING PAGE -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            <i class="bi bi-window"></i>
+                        </div>
+
+                        <span class="service-number">06</span>
+
+                        <h3>Landing Page Profesional</h3>
+
+                        <p>
+                            Halaman promosi yang dirancang untuk
+                            memperkenalkan produk, membangun kepercayaan,
+                            dan mengarahkan pengunjung ke tindakan.
+                        </p>
+
+                        <ul>
+                            <li>Landing page bisnis</li>
+                            <li>Halaman promosi produk</li>
+                            <li>Halaman layanan profesional</li>
+                            <li>CTA WhatsApp dan email</li>
+                            <li>Desain mobile-friendly</li>
+                            <li>Hosting GitHub Pages sesuai kebutuhan</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20membuat%20landing%20page."
+                            class="service-link"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            Pesan Landing Page
+                            <i class="bi bi-arrow-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         MAINTENANCE & RECOVERY
+    ====================================================== -->
+
+    <section class="section maintenance-section" id="maintenance">
+
+        <div class="container">
+
+            <div class="section-heading heading-center light">
+
+                <span class="section-label">MAINTENANCE & RECOVERY</span>
+
+                <h2>
+                    Website Bermasalah?
+                    <span>Kami Bantu Menanganinya.</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+                <p>
+                    Website yang sudah berjalan tetap membutuhkan
+                    perawatan. Kami membantu mengidentifikasi masalah,
+                    melakukan perbaikan, dan meningkatkan kesiapan
+                    website untuk digunakan kembali.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <!-- MAINTENANCE -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="maintenance-card">
+
+                        <div class="maintenance-icon">
+                            <i class="bi bi-gear-wide-connected"></i>
+                        </div>
+
+                        <h3>Website Maintenance</h3>
+
+                        <p>
+                            Perawatan rutin untuk membantu menjaga
+                            website tetap berfungsi dengan baik
+                            dan lebih mudah dikelola.
+                        </p>
+
+                        <ul>
+                            <li>Pemeriksaan website berkala</li>
+                            <li>Pembaruan CMS dan plugin yang kompatibel</li>
+                            <li>Pemeriksaan tautan dan fungsi</li>
+                            <li>Backup sesuai paket layanan</li>
+                            <li>Pemantauan error dan ketersediaan</li>
+                            <li>Perbaikan teknis sesuai ruang lingkup</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20membutuhkan%20maintenance%20website."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="maintenance-link">
+
+                            Tanya Layanan Maintenance
+                            <i class="bi bi-arrow-up-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- RECOVERY -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="maintenance-card">
+
+                        <div class="maintenance-icon">
+                            <i class="bi bi-arrow-counterclockwise"></i>
+                        </div>
+
+                        <h3>Website Recovery</h3>
+
+                        <p>
+                            Penanganan website yang error, tidak dapat
+                            diakses, mengalami gangguan setelah migrasi,
+                            atau memiliki masalah konfigurasi.
+                        </p>
+
+                        <ul>
+                            <li>Investigasi error 500 dan 502</li>
+                            <li>Penanganan masalah HTTP 404</li>
+                            <li>Diagnostik konfigurasi server</li>
+                            <li>Pemeriksaan DNS dan SSL</li>
+                            <li>Pemulihan setelah migrasi</li>
+                            <li>Pemeriksaan database dan file</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20website%20saya%20sedang%20bermasalah%20dan%20membutuhkan%20recovery."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="maintenance-link">
+
+                            Konsultasi Recovery
+                            <i class="bi bi-arrow-up-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- MALWARE -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="maintenance-card">
+
+                        <div class="maintenance-icon">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+
+                        <h3>Malware Cleanup & Security</h3>
+
+                        <p>
+                            Pemeriksaan dan penanganan website yang
+                            diduga terinfeksi malware, mengalami
+                            redirect mencurigakan, atau disusupi script.
+                        </p>
+
+                        <ul>
+                            <li>Identifikasi file mencurigakan</li>
+                            <li>Pemeriksaan redirect tidak wajar</li>
+                            <li>Pembersihan malware sesuai hasil audit</li>
+                            <li>Pemeriksaan akses administrator</li>
+                            <li>Penguatan konfigurasi keamanan</li>
+                            <li>Rekomendasi pencegahan infeksi ulang</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20website%20saya%20diduga%20terkena%20malware%20dan%20membutuhkan%20penanganan."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="maintenance-link">
+
+                            Tangani Website Saya
+                            <i class="bi bi-arrow-up-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- REDESIGN -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="maintenance-card">
+
+                        <div class="maintenance-icon">
+                            <i class="bi bi-palette"></i>
+                        </div>
+
+                        <h3>Redesign & Optimasi</h3>
+
+                        <p>
+                            Pembaruan tampilan website agar lebih
+                            modern, mudah digunakan, dan sesuai
+                            dengan identitas bisnis.
+                        </p>
+
+                        <ul>
+                            <li>Redesign website lama</li>
+                            <li>Perbaikan tampilan mobile</li>
+                            <li>Penyesuaian identitas visual</li>
+                            <li>Perbaikan navigasi</li>
+                            <li>Optimasi aset dan performa</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20redesign%20website."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="maintenance-link">
+
+                            Konsultasi Redesign
+                            <i class="bi bi-arrow-up-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- MIGRATION -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="maintenance-card">
+
+                        <div class="maintenance-icon">
+                            <i class="bi bi-hdd-network"></i>
+                        </div>
+
+                        <h3>Migrasi & Hosting</h3>
+
+                        <p>
+                            Bantuan pemindahan website dan penyesuaian
+                            konfigurasi saat berpindah hosting, domain,
+                            atau lingkungan server.
+                        </p>
+
+                        <ul>
+                            <li>Migrasi file dan database</li>
+                            <li>Penyesuaian konfigurasi domain</li>
+                            <li>Pemeriksaan DNS</li>
+                            <li>Konfigurasi SSL sesuai dukungan hosting</li>
+                            <li>Pengujian setelah migrasi</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20membutuhkan%20bantuan%20migrasi%20website."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="maintenance-link">
+
+                            Konsultasi Migrasi
+                            <i class="bi bi-arrow-up-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- BACKUP -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="maintenance-card">
+
+                        <div class="maintenance-icon">
+                            <i class="bi bi-cloud-arrow-up"></i>
+                        </div>
+
+                        <h3>Backup & Pemulihan Data</h3>
+
+                        <p>
+                            Pengelolaan cadangan website untuk membantu
+                            mengurangi risiko kehilangan data dan
+                            memudahkan pemulihan ketika diperlukan.
+                        </p>
+
+                        <ul>
+                            <li>Backup file website</li>
+                            <li>Backup database</li>
+                            <li>Verifikasi hasil backup</li>
+                            <li>Pemulihan dari cadangan yang tersedia</li>
+                            <li>Rekomendasi jadwal backup</li>
+                        </ul>
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20konsultasi%20backup%20dan%20pemulihan%20website."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="maintenance-link">
+
+                            Konsultasi Backup
+                            <i class="bi bi-arrow-up-right"></i>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+            <p class="maintenance-note">
+                <i class="bi bi-info-circle"></i>
+                Penanganan recovery, malware, dan keamanan diawali
+                dengan pemeriksaan kondisi website. Ruang lingkup,
+                estimasi biaya, dan waktu pengerjaan dikonfirmasi
+                setelah evaluasi awal.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         KEUNGGULAN
+    ====================================================== -->
+
+    <section class="section section-light" id="keunggulan">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-label">MENGAPA DHODO INDONESIA?</span>
+
+                <h2>
+                    Bukan Sekadar Membuat Website,
+                    <span>Tetapi Membantu Anda Berkembang.</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+                <p>
+                    Setiap proyek dimulai dengan memahami kebutuhan
+                    dan tujuan, kemudian menentukan solusi yang
+                    sesuai dengan kondisi Anda.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="benefit-card">
+
+                        <div class="benefit-icon">
+                            <i class="bi bi-bullseye"></i>
+                        </div>
+
+                        <h3>Sesuai Kebutuhan</h3>
+
+                        <p>
+                            Solusi disesuaikan dengan tujuan,
+                            karakter, dan kebutuhan bisnis atau
+                            institusi Anda.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="benefit-card">
+
+                        <div class="benefit-icon">
+                            <i class="bi bi-phone"></i>
+                        </div>
+
+                        <h3>Responsif</h3>
+
+                        <p>
+                            Tampilan dirancang agar nyaman digunakan
+                            di berbagai ukuran layar, termasuk
+                            perangkat mobile.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="benefit-card">
+
+                        <div class="benefit-icon">
+                            <i class="bi bi-chat-dots"></i>
+                        </div>
+
+                        <h3>Komunikasi Jelas</h3>
+
+                        <p>
+                            Kebutuhan, ruang lingkup, estimasi biaya,
+                            dan proses pengerjaan dikomunikasikan
+                            sebelum proyek dimulai.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="benefit-card">
+
+                        <div class="benefit-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+
+                        <h3>Perhatian pada Keamanan</h3>
+
+                        <p>
+                            Keamanan, backup, pembaruan, dan
+                            pemeliharaan menjadi bagian penting
+                            dari pengelolaan website.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         KATEGORI KLIEN
+    ====================================================== -->
+
+    <section class="audience-section">
+
+        <div class="container">
+
+            <div class="section-heading heading-center light">
+
+                <span class="section-label">SIAPA YANG KAMI BANTU?</span>
+
+                <h2>
+                    Untuk Berbagai Kebutuhan
+                    <span>Bisnis dan Institusi.</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+            <div class="audience-grid">
+
+                <div class="audience-item">
+                    <i class="bi bi-building"></i>
+                    <span>Perusahaan</span>
+                </div>
+
+                <div class="audience-item">
+                    <i class="bi bi-shop"></i>
+                    <span>UMKM & Bisnis</span>
+                </div>
+
+                <div class="audience-item">
+                    <i class="bi bi-mortarboard"></i>
+                    <span>Sekolah & Kampus</span>
+                </div>
+
+                <div class="audience-item">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span>Pengelola Jurnal</span>
+                </div>
+
+                <div class="audience-item">
+                    <i class="bi bi-people"></i>
+                    <span>Organisasi</span>
+                </div>
+
+                <div class="audience-item">
+                    <i class="bi bi-person-workspace"></i>
+                    <span>Profesional</span>
+                </div>
+
+                <div class="audience-item">
+                    <i class="bi bi-bag-check"></i>
+                    <span>Toko Online</span>
+                </div>
+
+                <div class="audience-item">
+                    <i class="bi bi-globe2"></i>
+                    <span>Komunitas Digital</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PROSES KERJA
+    ====================================================== -->
+
+    <section class="section section-light" id="proses">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-label">ALUR KERJA</span>
+
+                <h2>
+                    Dari Konsultasi
+                    <span>Hingga Siap Digunakan.</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+                <p>
+                    Proses yang jelas membantu Anda memahami
+                    tahapan pengerjaan dan hasil yang dituju.
+                </p>
+
+            </div>
+
+            <div class="process-grid">
+
+                <div class="process-item">
+
+                    <div class="process-number">01</div>
+
+                    <div class="process-icon">
+                        <i class="bi bi-chat-square-text"></i>
+                    </div>
+
+                    <h3>Konsultasi</h3>
+
+                    <p>
+                        Sampaikan kebutuhan, tujuan, dan kendala
+                        website melalui WhatsApp atau email.
+                    </p>
+
+                </div>
+
+                <div class="process-item">
+
+                    <div class="process-number">02</div>
+
+                    <div class="process-icon">
+                        <i class="bi bi-clipboard-check"></i>
+                    </div>
+
+                    <h3>Analisis & Penawaran</h3>
+
+                    <p>
+                        Kami mengevaluasi kebutuhan, menentukan
+                        ruang lingkup, serta menyampaikan
+                        estimasi biaya dan waktu.
+                    </p>
+
+                </div>
+
+                <div class="process-item">
+
+                    <div class="process-number">03</div>
+
+                    <div class="process-icon">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+
+                    <h3>Pengerjaan</h3>
+
+                    <p>
+                        Website dibuat, dikembangkan, atau
+                        diperbaiki berdasarkan kesepakatan
+                        dan kebutuhan proyek.
+                    </p>
+
+                </div>
+
+                <div class="process-item">
+
+                    <div class="process-number">04</div>
+
+                    <div class="process-icon">
+                        <i class="bi bi-check2-circle"></i>
+                    </div>
+
+                    <h3>Pengujian & Serah Terima</h3>
+
+                    <p>
+                        Hasil diperiksa sesuai ruang lingkup
+                        pekerjaan sebelum serah terima
+                        atau dimulainya layanan maintenance.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CTA
+    ====================================================== -->
+
+    <section class="cta-section">
+
+        <div class="cta-pattern"></div>
+
+        <div class="container position-relative">
+
+            <div class="cta-box">
+
+                <div class="cta-content">
+
+                    <span class="section-label">
+                        WUJUDKAN SOLUSI DIGITAL ANDA
+                    </span>
+
+                    <h2>
+                        Punya Ide Website?
+                        <span>Mari Kita Wujudkan.</span>
+                    </h2>
+
+                    <p>
+                        Ceritakan kebutuhan Anda kepada tim
+                        Dhodo Indonesia. Kami siap membantu
+                        mendiskusikan solusi, ruang lingkup,
+                        dan tahapan pengerjaannya.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20konsultasi%20proyek%20website."
+                            class="btn btn-gold"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            <i class="bi bi-whatsapp"></i>
+                            Hubungi Admin WhatsApp
+
+                        </a>
+
+                        <a href="#kontak" class="btn btn-outline-light">
+                            Informasi Kontak
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="cta-decoration">
+                    <i class="bi bi-code-slash"></i>
+                    <span>DHODO</span>
+                    <small>DIGITAL SOLUTIONS</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         KONTAK
+    ====================================================== -->
+
+    <section class="section section-light contact-section" id="kontak">
+
+        <div class="container">
+
+            <div class="section-heading heading-center">
+
+                <span class="section-label">HUBUNGI KAMI</span>
+
+                <h2>
+                    Mari Mulai
+                    <span>Proyek Digital Anda.</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+                <p>
+                    Hubungi kami untuk konsultasi pembuatan website,
+                    maintenance, recovery, maupun kebutuhan digital lainnya.
+                </p>
+
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-md-6 col-lg-5">
+
+                    <a
+                        class="contact-card"
+                        href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20website."
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <div class="contact-icon whatsapp-icon">
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+
+                        <div class="contact-info">
+                            <span>WHATSAPP ADMIN</span>
+                            <strong>+62 851-4338-8325</strong>
+                            <small>Klik untuk memulai percakapan</small>
+                        </div>
+
+                        <i class="bi bi-arrow-up-right contact-arrow"></i>
+
+                    </a>
+
+                </div>
+
+                <div class="col-md-6 col-lg-5">
+
+                    <a
+                        class="contact-card"
+                        href="mailto:dhodoindonesia@gmail.com?subject=Konsultasi%20Layanan%20Dhodo%20Indonesia">
+
+                        <div class="contact-icon email-icon">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+
+                        <div class="contact-info">
+                            <span>EMAIL RESMI</span>
+                            <strong>dhodoindonesia@gmail.com</strong>
+                            <small>Kirim kebutuhan proyek melalui email</small>
+                        </div>
+
+                        <i class="bi bi-arrow-up-right contact-arrow"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="row g-5 footer-main">
+
+                <div class="col-lg-5">
+
+                    <a href="#home" class="footer-brand">
+
+                        <span class="brand-mark">
+                            <i class="bi bi-code-slash"></i>
+                        </span>
+
+                        <span class="brand-text">
+                            <strong>DHODO INDONESIA</strong>
+                            <small>Website & Digital Solutions</small>
+                        </span>
+
+                    </a>
+
+                    <p class="footer-description">
+                        Mitra pengembangan website dan solusi digital
+                        untuk bisnis, lembaga pendidikan, organisasi,
+                        serta berbagai kebutuhan profesional.
+                    </p>
+
+                    <p class="footer-tagline">
+                        Bangun Digitalnya. Kembangkan Bisnisnya.
+                    </p>
+
+                </div>
+
+                <div class="col-6 col-lg-2">
+
+                    <h3 class="footer-title">Navigasi</h3>
+
+                    <ul class="footer-links">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="#layanan">Layanan</a></li>
+                        <li><a href="#keunggulan">Keunggulan</a></li>
+                        <li><a href="#proses">Proses Kerja</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-6 col-lg-2">
+
+                    <h3 class="footer-title">Layanan</h3>
+
+                    <ul class="footer-links">
+                        <li><a href="#layanan">Pembuatan Website</a></li>
+                        <li><a href="#layanan">WordPress</a></li>
+                        <li><a href="#layanan">Jurnal OJS</a></li>
+                        <li><a href="#maintenance">Maintenance</a></li>
+                        <li><a href="#maintenance">Recovery</a></li>
+                        <li><a href="#maintenance">Keamanan Website</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-3">
+
+                    <h3 class="footer-title">Hubungi Kami</h3>
+
+                    <a
+                        class="footer-contact"
+                        href="https://wa.me/6285143388325"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <i class="bi bi-whatsapp"></i>
+                        +62 851-4338-8325
+
+                    </a>
+
+                    <a
+                        class="footer-contact"
+                        href="mailto:dhodoindonesia@gmail.com">
+
+                        <i class="bi bi-envelope"></i>
+                        dhodoindonesia@gmail.com
+
+                    </a>
+
+                    <a href="#kontak" class="footer-cta">
+                        Konsultasi Proyek
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>
+                    &copy; <span id="currentYear">2026</span>
+                    Dhodo Indonesia. Hak cipta dilindungi.
+                </p>
+
+                <a href="#home">
+                    Kembali ke atas
+                    <i class="bi bi-arrow-up"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- FLOATING WHATSAPP -->
+
+    <a
+        href="https://wa.me/6285143388325?text=Halo%20Dhodo%20Indonesia%2C%20saya%20ingin%20konsultasi."
+        class="floating-whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Hubungi Dhodo Indonesia melalui WhatsApp">
+
+        <i class="bi bi-whatsapp"></i>
+        <span>Konsultasi</span>
+
+    </a>
+
+
+    <!-- Bootstrap JS: diperlukan untuk menu mobile -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Tahun footer otomatis -->
+
+    <script>
+        document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+    </script>
 
 </body>
-
 </html>
